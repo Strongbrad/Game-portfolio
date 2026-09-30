@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Game Artist Portfolio — 2D, 3D, environments, characters and game development.">
+  <title>Game Artist Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="nav">
+    <a class="logo" href="#home">ANTI<span>-HERO</span></a>
+    <button class="menu" aria-label="Open menu">☰</button>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">GAME ARTIST • DESIGNER • DEVELOPER</p>
+        <h1>BUILDING WORLDS<br><span>PLAYERS REMEMBER.</span></h1>
+        <p class="hero-text">2D & 3D game art, characters, environments and interactive experiences — designed with gameplay in mind.</p>
+        <div class="buttons">
+          <a class="btn primary" href="#work">View My Work <b>↗</b></a>
+          <a class="btn ghost" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="orb orb1"></div>
+        <div class="orb orb2"></div>
+        <div class="grid"></div>
+        <div class="art-card">
+          <span>01</span>
+          <strong>CREATE</strong>
+          <small>ART × GAMEPLAY</small>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="section-head">
+        <div><p class="eyebrow">SELECTED WORK</p><h2>MY <span>PORTFOLIO</span></h2></div>
+        <p class="muted">Replace the placeholders below with your own artwork.</p>
+      </div>
+      <div class="filter">
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="2d">2D Art</button>
+        <button data-filter="3d">3D Art</button>
+        <button data-filter="game">Game Projects</button>
+      </div>
+      <div class="portfolio">
+        <article class="project" data-type="2d">
+          <div class="thumb t1"><span>2D ART</span><b>CHARACTER DESIGN</b></div>
+          <div class="project-info"><h3>Character & Sprite Work</h3><p>Characters, sprite sheets, animation concepts and game-ready 2D assets.</p></div>
+        </article>
+        <article class="project" data-type="3d">
+          <div class="thumb t2"><span>3D ART</span><b>CHARACTER / MODEL</b></div>
+          <div class="project-info"><h3>3D Game Characters</h3><p>Game-ready characters, materials, animation and presentation renders.</p></div>
+        </article>
+        <article class="project" data-type="game">
+          <div class="thumb t3"><span>GAME PROJECT</span><b>ENVIRONMENT</b></div>
+          <div class="project-info"><h3>Interactive Environments</h3><p>Playable spaces built around composition, navigation and atmosphere.</p></div>
+        </article>
+        <article class="project" data-type="2d">
+          <div class="thumb t4"><span>2D ART</span><b>ENVIRONMENT</b></div>
+          <div class="project-info"><h3>2D Environment Art</h3><p>Tilesets, interiors, backgrounds and side-scrolling environments.</p></div>
+        </article>
+        <article class="project" data-type="3d">
+          <div class="thumb t5"><span>3D ART</span><b>WORLD BUILDING</b></div>
+          <div class="project-info"><h3>World Building</h3><p>Props, environments and visual storytelling for games.</p></div>
+        </article>
+        <article class="project" data-type="game">
+          <div class="thumb t6"><span>GAME DEV</span><b>UNITY</b></div>
+          <div class="project-info"><h3>Unity Game Development</h3><p>Gameplay systems, player movement, animation and interactive prototypes.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="section-head"><div><p class="eyebrow">WHAT I DO</p><h2>SKILLS & <span>TOOLS</span></h2></div></div>
+      <div class="skills">
+        <div class="skill"><strong>2D GAME ART</strong><p>Sprites • Characters • Tilesets • Environments • Concept Art</p></div>
+        <div class="skill"><strong>3D GAME ART</strong><p>Characters • Props • Environments • Materials • Renders</p></div>
+        <div class="skill"><strong>GAME DEVELOPMENT</strong><p>Unity • C# • Gameplay • Animation • Prototyping</p></div>
+        <div class="skill"><strong>DESIGN</strong><p>Game Design • Level Design • Visual Direction • UI Concepts</p></div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div>
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>ART THAT <span>SERVES THE GAME.</span></h2>
+      </div>
+      <div class="about-copy">
+        <p>I'm a game-focused artist interested in both 2D and 3D production. I enjoy turning ideas into characters, environments and playable experiences.</p>
+        <p>My approach combines visual design with an understanding of gameplay, animation and Unity implementation.</p>
+        <a class="text-link" href="#contact">Let's work together →</a>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <p class="eyebrow">GET IN TOUCH</p>
+      <h2>HAVE A PROJECT<br><span>IN MIND?</span></h2>
+      <p class="contact-text">I'm available for game-art projects, collaborations and opportunities.</p>
+      <a class="btn primary" href="mailto:your.email@example.com">your.email@example.com ↗</a>
+      <div class="socials">
+        <a href="#">ArtStation</a><a href="#">LinkedIn</a><a href="#">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© 2026 Anti-Hero</span><span>GAME ART • DESIGN • DEVELOPMENT</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
